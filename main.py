@@ -84,3 +84,15 @@ for i in range (chances):
 else:
     print("Hē / Incorrect")
     print("The Correct Answer Is Aroha")
+
+#print the score
+while score >= 5:
+  print ("Tino Pai! Your Score Was", score)
+  break
+
+while score <=4:
+  print ("Aroha Mai, Your Score Was", score ,"Better Luck Next Time")
+  break
+
+#Goodbye message
+print("Nga Mihi " + name, "For Playing My Te Reo Quiz")
