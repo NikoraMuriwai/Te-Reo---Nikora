@@ -5,7 +5,7 @@ print ("Nau Mai Haere Mai / Welcome " + name)
 
 #Chances
 chances = 1
-print("You Will Have", chances ,"Chance To Answer Correctly")
+print("You Will Have", chances ,"Chance To Answer Correctly, Please Answer With The Following: A, B, C, D")
 
 #Score
 score = 0
@@ -27,7 +27,7 @@ else:
 
 #question 2
 question_2 = print("2) What Is the Te Reo word For Left?")
-options_2 = print("A) Pounamu | B) Poaka | C) Maui | D) None Of The Above")
+options_2 = print("A) Pounamu | B) Poaka | C) Maui | D) None")
 answer_2 = "c"
 
 for i in range (chances):
@@ -42,7 +42,7 @@ else:
 
 #question 3
 question_3 = print("3) What Is the Te Reo word For Right?")
-options_3 = print("A) Pounamu | B) Hui | C) Iwi | D) None Of The Above")
+options_3 = print("A) Pounamu | B) Hui | C) Iwi | D) None")
 answer_3 = "d"
 
 for i in range (chances):
@@ -53,7 +53,7 @@ for i in range (chances):
     break
 else:
     print("Hē / Incorrect")
-    print("The Correct Answer Is None Of The Above")
+    print("The Correct Answer Is None")
 
 #question 4
 question_4 = print("4) What Is the Te Reo word For Hungry?")
@@ -68,11 +68,11 @@ for i in range (chances):
     break
 else:
     print("Hē / Incorrect")
-    print("The Correct Answer Is None Of The Above")
+    print("The Correct Answer Is Hiakai")
 
 #question 5
-question_5 = print("5) What Is the Te Reo word For Right?")
-options_5 = print("A) Pounamu | B) Hui | C) Iwi | D) None Of The Above")
+question_5 = print("5) What Is the Te Reo word For Love?")
+options_5 = print("A) Whānau | B) Tautoko | C) Awhi | D) Aroha")
 answer_5 = "d"
 
 for i in range (chances):
@@ -83,4 +83,4 @@ for i in range (chances):
     break
 else:
     print("Hē / Incorrect")
-    print("The Correct Answer Is None Of The Above")
+    print("The Correct Answer Is Aroha")
