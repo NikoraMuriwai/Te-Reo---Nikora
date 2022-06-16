@@ -1,3 +1,8 @@
+#v1.9
+#Te Reo Quiz 
+#17/06/22
+#made by Nikora Muriwai
+
 #Welcome 
 print ("Kia Ora, Ko Wai Tou Ingoa? / Hello, What Is Your Name")
 name = input()
@@ -11,7 +16,7 @@ print("You Will Have", chances ,"Chance To Answer Correctly, Please Answer With 
 score = 0
 
 #question 1
-question_1 = print("1) What Is the Te Reo word For Ocean?")
+question_1 = print("1) What Is The Te Reo word For Ocean?")
 options_1 = print("A) Moana | B) Rangi | C) Papa | D) Moko")
 answer_1 = "a"
 
